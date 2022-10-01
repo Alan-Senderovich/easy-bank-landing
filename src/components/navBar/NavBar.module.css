@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  margin: 0;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
+.menu__container {
+  display: flex;
+}
+
+.menu__ul {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  cursor: pointer;
+  color: #99989D;
+}
+
+.menu__ul:hover {
+  color: #000;
+}
+
+/* .menu__ul::after {
+  content: " ";
+  width: 100%;
+  color: red;
+} */
+
+/* .menu__ul li {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  color: #99989D;
+  cursor: pointer;
+  
+} */
+
+.active {
+  color: #000;
+}
+
+.button__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

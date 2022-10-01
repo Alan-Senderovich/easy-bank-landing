@@ -1,0 +1,53 @@
+.banner {
+  background-color: #FAFAFA;
+  height: 520px;
+  width: 100%;
+}
+
+.banner__container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  text-align: center;
+}
+
+.banner__left {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 27% 0 0 0;
+  gap: 2rem;
+}
+
+.banner__left h1 {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 53px;
+  margin: 0;
+  color: #2D314E;
+}
+
+.banner__left p {
+  text-align: start;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #959499;
+  line-height: 1.4rem;
+  letter-spacing: .03em
+}
+
+.btn {
+    text-align: start;
+    margin-top: .5rem
+}
+
+.banner__right {
+  position: relative;
+}
+
+.banner__right img {
+  position:absolute;
+  right: 0;
+  width:68%
+}

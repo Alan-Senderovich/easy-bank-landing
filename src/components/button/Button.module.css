@@ -1,0 +1,24 @@
+.button {
+  background: linear-gradient(90deg, #31cf70 4.85%, #2cb9cb 100%);
+  border-radius: 89px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+}
+
+.button:active {
+  background: linear-gradient(90deg, #84e1a7 4.85%, #81d6db 100%);
+}
+
+.button__full_width {
+  background: linear-gradient(90deg, #31cf70 4.85%, #2cb9cb 100%);;
+  border-radius: 89px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  width: 100%;
+}

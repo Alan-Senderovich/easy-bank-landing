@@ -1,0 +1,28 @@
+.about__item h3 {
+  color: #2d314e;
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about__item p {
+  color: #959499;
+  font-size: 16px;
+  line-height: 1.6rem
+}
+
+.about__item_image {
+  position: relative;
+  width: auto;
+  display: inline-block;
+}
+
+.about__item_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

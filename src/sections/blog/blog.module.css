@@ -1,0 +1,23 @@
+.blog {
+  background-color: #fafafa;
+  padding-right: 11%;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.blog__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.blog__heading h2 {
+  color: #2d314e;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.blog__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}

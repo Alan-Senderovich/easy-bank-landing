@@ -1,0 +1,122 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 11%;
+  padding-right: 11%;
+  margin-top: 4rem;
+}
+
+.table__heading h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 62px;
+  color: #2d314e;
+}
+
+.table__heading p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #99989d;
+  margin-bottom: 2rem;
+}
+
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+}
+
+.table .table__row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table th {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  padding: 1rem 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 10ch;
+  height: 2.5rem;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.table td {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 10ch;
+  height: 3.5rem;
+  color: #6b7280;
+}
+
+.table__td_author {
+  max-width: 10ch;
+  color: #2d314e !important;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.table__td_button_edit {
+  text-align: end !important;
+}
+
+.table__td_button_edit button {
+  border: none;
+  color: #84e1a7;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.table__td_button_save {
+  color: #000;
+  background-color: #84e1a7;
+  border: 1px solid #99989d;
+}
+
+.table__nav_pagination ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+.table__nav_pagination li {
+  margin: 1rem;
+  padding: .3rem .6rem;
+  border: 1px solid #99989d;
+  cursor: pointer;
+}
+
+/* .table th {
+  background-color: rgb(117, 201, 250);
+}
+
+.table td {
+  background-color: rgb(205, 235, 253);
+} */
+
+/* form {
+    display: flex;
+    gap: 5px;
+  } */
+
+/* form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  } */

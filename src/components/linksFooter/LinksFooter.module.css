@@ -1,0 +1,22 @@
+.linksFooter__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: center
+}
+
+.linksFooter {
+    display: flex;
+    justify-content: flex-start
+}
+
+.linksFooter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem
+}
+
+.linksFooter li{
+    font-size:14px
+}

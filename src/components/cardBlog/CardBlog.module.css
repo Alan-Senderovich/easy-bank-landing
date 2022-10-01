@@ -1,0 +1,48 @@
+.card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.card__image_container {
+  max-width: 300px;
+  border-radius: 8px 8px 0 0;
+}
+
+.card__image_container img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card__content {
+  padding: 1.7rem 1.4rem;
+}
+
+.card__content span {
+  color: #959499;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  display:inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20ch;
+}
+
+.card__content h4 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+  color: #2d314e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.card__content p {
+  color: #959499;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}

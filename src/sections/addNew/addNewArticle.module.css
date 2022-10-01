@@ -1,0 +1,26 @@
+.addNewArticle {
+  background-color: #f9f9f9;
+  padding-top: 3rem;
+}
+
+.addNewArticle__heading {
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
+.addNewArticle__heading h2 {
+  color: #2d314e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 62px;
+}
+
+.addNewArticle__heading p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #99989D;
+  padding-top: 1rem;
+}
